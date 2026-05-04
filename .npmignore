@@ -3,6 +3,5 @@ src/
 *.test.ts
 *.spec.ts
 .github/
-.eslintrc*
-.prettierrc*
 tsconfig.json
+.gitignore

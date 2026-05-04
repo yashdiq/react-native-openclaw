@@ -5,3 +5,8 @@ android/.gradle/
 .idea/
 .DS_Store
 *.tgz
+
+lib/
+dist/
+
+package-lock.json

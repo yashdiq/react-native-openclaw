@@ -6,8 +6,8 @@
     "declarationMap": true,
     "strict": true,
     "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "bundler",
+    "module": "Node16",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "react-jsx"
