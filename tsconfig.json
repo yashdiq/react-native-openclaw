@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
     "rootDir": "src",
+    "outDir": "lib",
     "declaration": true,
+    "declarationMap": true,
     "strict": true,
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "ES2020",
+    "module": "CommonJS",
     "moduleResolution": "bundler",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["lib", "node_modules"]
 }

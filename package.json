@@ -2,16 +2,20 @@
   "name": "react-native-openclaw",
   "version": "0.1.0",
   "description": "Run OpenClaw AI agent gateway headlessly on Android via React Native — no Termux, no root, no proot",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
+    "lib",
     "src",
     "android",
     "react-native.config.js",
     "README.md"
   ],
   "scripts": {
-    "typescript": "tsc --noEmit"
+    "build": "tsc",
+    "typescript": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react-native",
