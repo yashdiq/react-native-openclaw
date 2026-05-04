@@ -1,5 +1,8 @@
 # react-native-openclaw
 
+[![npm version](https://img.shields.io/npm/v/react-native-openclaw.svg)](https://www.npmjs.com/package/react-native-openclaw)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-openclaw.svg)](https://www.npmjs.com/package/react-native-openclaw)
+
 Run [OpenClaw](https://github.com/openclaw/openclaw) AI agent gateway headlessly on Android — no Termux, no root, no proot. Any React Native app can install this package and start an OpenClaw gateway process on-device.
 
 ## How It Works
