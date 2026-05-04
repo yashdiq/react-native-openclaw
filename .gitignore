@@ -1,0 +1,7 @@
+node_modules/
+android/build/
+android/.gradle/
+*.iml
+.idea/
+.DS_Store
+*.tgz

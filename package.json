@@ -1,0 +1,47 @@
+{
+  "name": "react-native-openclaw",
+  "version": "0.1.0",
+  "description": "Run OpenClaw AI agent gateway headlessly on Android via React Native — no Termux, no root, no proot",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "android",
+    "react-native.config.js",
+    "README.md"
+  ],
+  "scripts": {
+    "typescript": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "openclaw",
+    "nodejs",
+    "glibc",
+    "ai-agent",
+    "agent-gateway"
+  ],
+  "author": "Yashdiq Lubis <yashdiq@lubis.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashdiq/react-native-openclaw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashdiq/react-native-openclaw/issues"
+  },
+  "homepage": "https://github.com/yashdiq/react-native-openclaw#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "react": "^19.2.0",
+    "react-native": "^0.85.0"
+  }
+}
